@@ -1,0 +1,18 @@
+May 18, 2018 3:24:39 PM, Exception was thrown: Cola could not be found in the database.
+integration.ItemNotFoundException: Cola could not be found in the database.
+	at integration.ItemRegistry.findItem(ItemRegistry.java:47)
+	at controller.Controller.enterItemIDAndQuantity(Controller.java:76)
+	at view.View.sampleExecution(View.java:35)
+	at startup.Main.main(Main.java:24)
+May 18, 2018 3:24:39 PM, Exception was thrown: payment 40kr is not enough for the purchase 50kr.
+model.InvalidPaymentException: payment 40kr is not enough for the purchase 50kr.
+	at model.Sale.caculateChange(Sale.java:127)
+	at controller.Controller.enterPaidCash(Controller.java:91)
+	at view.View.sampleExecution(View.java:43)
+	at startup.Main.main(Main.java:24)
+May 18, 2018 3:24:39 PM, Exception was thrown: lgwlfg could not be found in the database.
+integration.ItemNotFoundException: lgwlfg could not be found in the database.
+	at integration.ItemRegistry.findItem(ItemRegistry.java:47)
+	at controller.Controller.enterItemIDAndQuantity(Controller.java:76)
+	at view.View.sampleExecution(View.java:53)
+	at startup.Main.main(Main.java:24)
